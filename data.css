@@ -7,7 +7,7 @@
 
   .text li{
     margin-left: 6px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   ul li::before{
     margin-left: -10px;
