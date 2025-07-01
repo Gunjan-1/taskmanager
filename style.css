@@ -70,7 +70,8 @@ border-bottom:2px dotted ;
   color: black;
   font-size: 30px;
   margin-left: 20%;
-  height: 30px;text-align: center;
+  height: 30px;
+  text-align: center;
 }
 .text li button{
     float:right;
