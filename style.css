@@ -1,0 +1,236 @@
+body{
+  background-color: black;
+}
+.maindiv{
+    border: groove;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+    background-color:white;
+    margin-top: 100px;
+    box-shadow: 0px 2px 4px 4px whitesmoke;
+}
+
+.maindiv hr{
+   width: 60%;
+   margin-top: -20px;
+}
+.maindiv h1{
+    text-align: center;
+    font-size: 40px;
+   margin-top: 50px;
+   color: black;
+   padding: 10px;
+}
+.mainname h1{
+margin-top: -40px;
+}
+
+.imgdata img{
+  width: 110px;
+  margin-left: 20px;
+  z-index: 1px;
+  position: absolute;
+}
+.inputdata {
+  display: flex;
+  justify-content: center;
+margin-top: 20px;
+}
+.inputdata input{
+    width: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+   border: 2px solid rgb(6, 145, 145);
+   height: 20px;
+  }
+.inputdata button{
+    margin-left: 20px;
+    padding: 10px;
+    width: 70px;
+    border: none;
+    background-color: rgb(39, 236, 39);
+    color:black;
+    border-radius: 10px;
+}
+.inputdata button:hover{
+  background-color: green;
+  color:whitesmoke ;
+}
+.text{
+    margin-right: 10%;
+    margin-top: 7px;
+     display: inline-block;
+     margin-bottom: 10px;
+}
+.text li{
+ border: groove;
+ border: none;
+ border-radius: 10px;
+background-color:whitesmoke;
+border-bottom:2px dotted ;
+   list-style: none;
+    width: 400px;
+  padding: 10px;
+  color: black;
+  font-size: 30px;
+  margin-left: 20%;
+  height: 30px;text-align: center;
+}
+.text li button{
+    float:right;
+    background-color: rgb(158, 9, 9);
+    border: none;
+    width: 35%;
+    height: 38px;
+   color: white;
+    border-radius: 10px;
+    margin-top: -3px;
+}
+
+ul li.checked{
+  text-decoration: line-through;
+}
+ul li.checked::before{
+  border: 2px solid green;
+  border-radius: 50%;
+}
+ul li::before{
+ position: absolute;
+ content: "";
+ height: 30px;
+ width: 30px;
+margin-left: -5%;
+   background-image: url(check.png);
+   background-size: cover;
+}
+.text li button:hover{
+  background-color: rgb(207, 39, 39);
+}
+
+@media(max-width:1024px){
+  .imgdata img{
+    width: 120px;
+    height: 100px;
+  }
+  .inputdata input{
+margin-top: 20px;
+   width: 35%;
+   margin-left: 60px; 
+  }
+  .inputdata button{
+ margin-top: 20px;
+}
+ .text li{
+  margin-top: 30px;
+  margin-left: -5px;
+ }
+ul li::before{
+  margin-left: -7%;
+}
+  }
+
+ @media (max-width:768px){
+  .maindiv{
+    width: 60%;
+  }
+    .imgdata img{
+    width: 100px;
+    height: 80px;
+  }
+   .inputdata input{
+margin-top: 10px;
+   width: 35%;
+   margin-left: 30%; 
+  }
+  .inputdata button{
+ margin-top: 10px;
+}
+
+ .text li{
+  margin-top: 30px;
+  margin-left: -20px;
+ }
+ .text li button{
+  width: 20%;
+ }
+ul li::before{
+  margin-left: -13%;
+}
+ }
+@media (max-width:425px) {
+
+  .inputdata{
+     display: flex;
+     display: block;
+     
+   }
+   .inputdata input{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: -10px;
+   }
+   .inputdata button{
+    position: absolute;
+     margin-top: 3px;
+     margin-left: 80px;
+     z-index: 1;
+     width: 80px;
+   }
+   .imgdata img{
+ display: none;
+   }
+   .maindiv hr{
+    width: 80%;
+   }
+   .text{
+    width: 90%;
+   }
+   .text li{
+    background-color: whitesmoke;
+    color:black;
+    width: 100%;
+    margin-left: -37px;
+}
+.text li button{
+  width: 52px;
+}
+ul li::before{
+  margin-left: -35px;
+}
+}
+@media (max-width:375){
+  ul li::before{
+  margin-left: -10px;
+}
+}
+@media (max-width:320px) {
+    .maindiv{
+      width: 90%;
+      margin-left: 20px;
+    }
+   .inputdata button{
+     margin-top: 5px;
+     display: flex;
+     justify-content: center;
+    margin-left: 25%;
+   }
+   .inputdata input{
+    width: 85%;
+    height: 10px;
+    padding: 10px;
+    margin-left: 7px;
+    text-align: center;
+   }
+   .maindiv hr{
+    width: 80%;
+   }
+   .text li button{
+  width: 55px;
+}
+ul li::before{
+  margin-left: -40px;
+}
+}
+
