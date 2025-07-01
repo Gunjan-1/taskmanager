@@ -30,6 +30,5 @@ let text = document.querySelector(".text")
     }
     function Getdata(){
        text.innerHTML=localStorage.getItem("datacheck");
-
     }
     Getdata();
