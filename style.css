@@ -52,20 +52,13 @@ margin-top: 20px;
   background-color: green;
   color:whitesmoke ;
 }
-.text{
-    margin-right: 10px;
-    margin-top: 7px;
-     display: inline-block;
-     margin-bottom: 10px;
-}
 .text li{
- border: groove;
- border: none;
- border-radius: 10px;
-background-color:whitesmoke;
-border-bottom:2px dotted ;
-   list-style: none;
-    width: 400px;
+  border: groove;
+  border: none;
+  border-radius: 10px;
+  background-color:whitesmoke;
+  border-bottom:2px dotted ;
+  list-style: none;
   padding: 10px;
   color: black;
   font-size: 18px;
